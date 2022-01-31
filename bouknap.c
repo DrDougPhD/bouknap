@@ -893,22 +893,3 @@ stype bouknap(int n, int *p, int *w, int *m, int *x, int c)
 /* ======================================================================
                                 end
    ====================================================================== */
-
-int main(int argc, char *argv[]) {
-    int item_type_count = 5;
-    int capacity = 50;
-
-    int *profits = (int *) palloc(item_type_count, sizeof(int));
-    int *weights = (int *) palloc(item_type_count, sizeof(int));
-    int *available_quantities = (int *) palloc(item_type_count, sizeof(int));
-    int *optimal_solution = (int *) palloc(item_type_count, sizeof(int));
-
-    stype optimal_profit = bouknap(
-        item_type_count,
-        profits,
-        weights,
-        available_quantities,
-        optimal_solution,
-        capacity
-    );
-}
