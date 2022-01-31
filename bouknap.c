@@ -111,7 +111,7 @@ typedef int           boolean;
 typedef int           ntype;   /* number of states or items           */
 typedef short         itype;   /* item profits and weights            */
 typedef short         mtype;   /* number of each item                 */
-typedef long          stype;   /* sum of pofit or weight              */
+typedef long          stype;   /* sum of profit or weight              */
 typedef double        ptype;   /* product type (sufficient precision) */
 typedef unsigned long ltype;   /* positive large sums                 */
 typedef unsigned long vtype;   /* representation of vector            */
