@@ -30,3 +30,5 @@ _, solution = bouknap.solve(
     capacity=capacity
 )
 ```
+
+* Work with floating-point values for weights, values, and knapsack capacity.
